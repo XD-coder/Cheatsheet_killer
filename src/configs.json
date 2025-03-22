@@ -260,6 +260,5 @@
             }
         }
     ],
-
-"yearOptions": ["2019", "2020", "2021"]
+    "collegeOptions": ["IIT", "NIT", "IIIT", "BITS", "VIT", "SRM", "Manipal", "Thapar", "Amity", "LPU", "UPES"]
 }

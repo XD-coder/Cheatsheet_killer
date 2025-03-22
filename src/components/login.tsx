@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/router";
 
 import Link from "next/link";
 import { RiLoginBoxFill } from "react-icons/ri";
@@ -22,12 +23,11 @@ const Login: React.FC<LoginProps> = ({
   className = "",
   symbol = <RiLoginBoxFill />,
 }) => {
+  const router = useRouter();
   return (
     <Link
-      href={href}
-      onClick={() => {
-        console.log("login");
-      }}
+      href="/login"
+      onClick={() => {}}
       className={`${bg} ${bgHover} p-4 fixed rounded-2xl shadow-md hover:shadow-2xl ${className}`}
     >
       <div className="flex flex-col items-center justify-between">
