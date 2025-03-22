@@ -1,0 +1,265 @@
+{
+    "courseOptions": [
+        {
+            "Btech": {
+                "yearOptions": ["First Year", "Second Year", "Third Year", "Fourth Year"],
+                "branches": {
+                    "Computer Science": {
+                        "sem": {
+                            "1": ["Data Structures", "Algorithms"],
+                            "2": ["Operating Systems", "Database Systems"],
+                            "3": ["Computer Networks", "Software Engineering"],
+                            "4": ["Artificial Intelligence", "Machine Learning"],
+                            "5": ["Compiler Design", "Distributed Systems"],
+                            "6": ["Data Mining", "Cloud Computing"],
+                            "7": ["Cyber Security", "Internet of Things"],
+                            "8": ["Big Data", "Blockchain Technology"]
+                        }
+                    },
+                    "Mechanical": {
+                        "sem": {
+                            "1": ["Thermodynamics", "Fluid Mechanics"],
+                            "2": ["Machine Design", "Heat Transfer"],
+                            "3": ["Manufacturing Processes", "Dynamics of Machines"],
+                            "4": ["Material Science", "Automobile Engineering"],
+                            "5": ["Robotics", "Control Systems"],
+                            "6": ["Mechatronics", "Renewable Energy"],
+                            "7": ["Advanced Manufacturing", "Finite Element Analysis"],
+                            "8": ["Industrial Engineering", "Project Management"]
+                        }
+                    },
+                    "Electrical": {
+                        "sem": {
+                            "1": ["Circuit Theory", "Control Systems"],
+                            "2": ["Power Electronics", "Electrical Machines"],
+                            "3": ["Signal Processing", "Microprocessors"],
+                            "4": ["Power Systems", "Instrumentation"],
+                            "5": ["Renewable Energy", "Electric Drives"],
+                            "6": ["Smart Grids", "High Voltage Engineering"],
+                            "7": ["Embedded Systems", "Energy Management"],
+                            "8": ["Electric Vehicles", "Power Quality"]
+                        }
+                    },
+                    "Civil": {
+                        "sem": {
+                            "1": ["Structural Analysis", "Geotechnical Engineering"],
+                            "2": ["Transportation Engineering", "Hydraulics"],
+                            "3": ["Environmental Engineering", "Concrete Technology"],
+                            "4": ["Construction Materials", "Surveying"],
+                            "5": ["Water Resources Engineering", "Steel Structures"],
+                            "6": ["Bridge Engineering", "Urban Planning"],
+                            "7": ["Construction Management", "Geographic Information Systems"],
+                            "8": ["Disaster Management", "Sustainable Development"]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Bsc": {
+                "yearOptions": ["First Year", "Second Year", "Third Year"],
+                "branches": {
+                    "Physics": {
+                        "sem": {
+                            "1": ["Quantum Mechanics", "Electromagnetism"],
+                            "2": ["Thermodynamics", "Optics"],
+                            "3": ["Statistical Mechanics", "Solid State Physics"],
+                            "4": ["Nuclear Physics", "Particle Physics"],
+                            "5": ["Astrophysics", "Condensed Matter Physics"],
+                            "6": ["Plasma Physics", "Biophysics"]
+                        }
+                    },
+                    "Chemistry": {
+                        "sem": {
+                            "1": ["Organic Chemistry", "Inorganic Chemistry"],
+                            "2": ["Physical Chemistry", "Analytical Chemistry"],
+                            "3": ["Biochemistry", "Environmental Chemistry"],
+                            "4": ["Industrial Chemistry", "Polymer Chemistry"],
+                            "5": ["Medicinal Chemistry", "Green Chemistry"],
+                            "6": ["Computational Chemistry", "Nanotechnology"]
+                        }
+                    },
+                    "Mathematics": {
+                        "sem": {
+                            "1": ["Calculus", "Linear Algebra"],
+                            "2": ["Differential Equations", "Probability"],
+                            "3": ["Abstract Algebra", "Real Analysis"],
+                            "4": ["Complex Analysis", "Numerical Methods"],
+                            "5": ["Topology", "Mathematical Modelling"],
+                            "6": ["Graph Theory", "Operations Research"]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "MBA": {
+                "yearOptions": ["First Year", "Second Year"],
+                "branches": {
+                    "Finance": {
+                        "sem": {
+                            "1": ["Corporate Finance", "Investment Analysis"],
+                            "2": ["Financial Markets", "Risk Management"],
+                            "3": ["International Finance", "Financial Derivatives"],
+                            "4": ["Mergers and Acquisitions", "Portfolio Management"]
+                        }
+                    },
+                    "Marketing": {
+                        "sem": {
+                            "1": ["Consumer Behavior", "Marketing Research"],
+                            "2": ["Digital Marketing", "Brand Management"],
+                            "3": ["Sales Management", "Retail Management"],
+                            "4": ["Advertising", "International Marketing"]
+                        }
+                    },
+                    "Human Resources": {
+                        "sem": {
+                            "1": ["Organizational Behavior", "Human Resource Management"],
+                            "2": ["Labor Laws", "Performance Management"],
+                            "3": ["Training and Development", "Compensation Management"],
+                            "4": ["Strategic HRM", "Employee Relations"]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "MCA": {
+                "yearOptions": ["First Year", "Second Year", "Third Year"],
+                "branches": {
+                    "Computer Applications": {
+                        "sem": {
+                            "1": ["Database Management", "Software Engineering"],
+                            "2": ["Web Technologies", "Computer Networks"],
+                            "3": ["Mobile Computing", "Data Analytics"],
+                            "4": ["Artificial Intelligence", "Cloud Computing"],
+                            "5": ["Cyber Security", "Internet of Things"],
+                            "6": ["Big Data", "Blockchain Technology"]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Mtech": {
+                "yearOptions": ["First Year", "Second Year"],
+                "branches": {
+                    "Computer Science": {
+                        "sem": {
+                            "1": ["Advanced Algorithms", "Machine Learning"],
+                            "2": ["Distributed Systems", "Data Mining"],
+                            "3": ["Natural Language Processing", "Computer Vision"],
+                            "4": ["Deep Learning", "Quantum Computing"]
+                        }
+                    },
+                    "Mechanical": {
+                        "sem": {
+                            "1": ["Advanced Thermodynamics", "Robotics"],
+                            "2": ["Finite Element Analysis", "Advanced Manufacturing"],
+                            "3": ["Computational Fluid Dynamics", "Advanced Materials"],
+                            "4": ["Biomechanics", "Nanotechnology"]
+                        }
+                    },
+                    "Electrical": {
+                        "sem": {
+                            "1": ["Advanced Control Systems", "Power System Analysis"],
+                            "2": ["Renewable Energy Systems", "Smart Grids"],
+                            "3": ["Electric Drives", "Power Quality"],
+                            "4": ["Energy Management", "Electric Vehicles"]
+                        }
+                    },
+                    "Civil": {
+                        "sem": {
+                            "1": ["Advanced Structural Analysis", "Construction Management"],
+                            "2": ["Environmental Engineering", "Urban Planning"],
+                            "3": ["Geotechnical Engineering", "Transportation Engineering"],
+                            "4": ["Water Resources Engineering", "Disaster Management"]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "BBA": {
+                "yearOptions": ["First Year", "Second Year", "Third Year"],
+                "branches": {
+                    "Finance": {
+                        "sem": {
+                            "1": ["Financial Accounting", "Business Finance"],
+                            "2": ["Taxation", "Financial Management"],
+                            "3": ["Investment Management", "Corporate Finance"],
+                            "4": ["International Finance", "Financial Markets"],
+                            "5": ["Risk Management", "Portfolio Management"],
+                            "6": ["Financial Analysis", "Banking Operations"]
+                        }
+                    },
+                    "Marketing": {
+                        "sem": {
+                            "1": ["Principles of Marketing", "Sales Management"],
+                            "2": ["Advertising", "Market Research"],
+                            "3": ["Consumer Behavior", "Digital Marketing"],
+                            "4": ["Brand Management", "Retail Management"],
+                            "5": ["International Marketing", "Service Marketing"],
+                            "6": ["Marketing Strategy", "Product Management"]
+                        }
+                    },
+                    "Human Resources": {
+                        "sem": {
+                            "1": ["Human Resource Planning", "Performance Management"],
+                            "2": ["Industrial Relations", "Training and Development"],
+                            "3": ["Compensation Management", "Employee Relations"],
+                            "4": ["Strategic HRM", "Organizational Development"],
+                            "5": ["Labor Laws", "Talent Management"],
+                            "6": ["HR Analytics", "Change Management"]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "LLB": {
+                "yearOptions": ["First Year", "Second Year", "Third Year", "Fourth Year"],
+                "branches": {
+                    "Criminal Law": {
+                        "sem": {
+                            "1": ["Criminal Procedure Code", "Indian Penal Code"],
+                            "2": ["Evidence Law", "Criminology"],
+                            "3": ["Juvenile Justice", "Cyber Crimes"],
+                            "4": ["Forensic Science", "Victimology"],
+                            "5": ["International Criminal Law", "Human Rights Law"],
+                            "6": ["Comparative Criminal Law", "Penology"],
+                            "7": ["White Collar Crimes", "Organized Crimes"],
+                            "8": ["Criminal Justice Administration", "Sentencing"]
+                        }
+                    },
+                    "Corporate Law": {
+                        "sem": {
+                            "1": ["Company Law", "Securities Law"],
+                            "2": ["Competition Law", "Corporate Governance"],
+                            "3": ["Mergers and Acquisitions", "Bankruptcy Law"],
+                            "4": ["Intellectual Property Law", "Taxation Law"],
+                            "5": ["International Trade Law", "Investment Law"],
+                            "6": ["Banking Law", "Insurance Law"],
+                            "7": ["Corporate Finance", "Corporate Social Responsibility"],
+                            "8": ["Corporate Litigation", "Arbitration"]
+                        }
+                    },
+                    "International Law": {
+                        "sem": {
+                            "1": ["Public International Law", "Private International Law"],
+                            "2": ["Human Rights Law", "International Trade Law"],
+                            "3": ["International Environmental Law", "Law of the Sea"],
+                            "4": ["International Humanitarian Law", "International Criminal Law"],
+                            "5": ["International Dispute Resolution", "International Organizations"],
+                            "6": ["International Investment Law", "International Tax Law"],
+                            "7": ["International Intellectual Property Law", "International Commercial Law"],
+                            "8": ["International Arbitration", "International Maritime Law"]
+                        }
+                    }
+                }
+            }
+        }
+    ],
+
+"yearOptions": ["2019", "2020", "2021"]
+}
