@@ -31,7 +31,7 @@ const dashboard = () => {
       </div>
 
       <div
-        className={`${primaryBg} h-screen p-8 flex flex-col items-center justify-center`}
+        className={` h-screen p-8 flex flex-col items-center justify-center`}
       >
         <div className="w-full max-w-6xl flex-grow flex flex-col justify-center">
           {/* Title and Subtitle Section */}

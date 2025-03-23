@@ -27,7 +27,9 @@ const Card: React.FC<CardProps> = ({
         <div className={`w-2 h-2 rounded-full bg-${color}-300/10`} />
       </div>
       <div className="relative z-10 transition-transform duration-300 group-hover/card:translate-y-[-2px] space-y-3">
-        <h1 className="text-[2.2em] font-bold bg-gradient-to-r from-white via-purple-100 to-purple-200 bg-clip-text text-transparent">
+        <h1
+          className={`text-[2.2em] font-bold bg-gradient-to-r from-white via-${color}-100 to-purple-200 bg-clip-text text-transparent`}
+        >
           {heading}
         </h1>
         <p className="text-xl text-purple-100/90 leading-relaxed font-light">
