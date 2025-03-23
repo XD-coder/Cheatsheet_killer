@@ -1,5 +1,5 @@
 "use client";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const CourseSelection = ({ data }) => {
@@ -21,7 +21,6 @@ const CourseSelection = ({ data }) => {
       )
     : [];
 
-  const router = useRouter();
   return (
     <div className="max-w-md mx-auto p-6 bg-white rounded-md shadow-md">
       <div className="mb-4">
@@ -97,17 +96,15 @@ const CourseSelection = ({ data }) => {
           </div>
         </>
       )}
-
       <div className="flex justify-center">
-        <button
+        {" "}
+        <Link
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           type="button"
-          onClick={() => {
-            router.back();
-          }}
+          href={"/dashboard"}
         >
           Submit
-        </button>
+        </Link>
       </div>
     </div>
   );

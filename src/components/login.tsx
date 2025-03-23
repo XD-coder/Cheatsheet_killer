@@ -23,7 +23,6 @@ const Login: React.FC<LoginProps> = ({
   className = "",
   symbol = <RiLoginBoxFill />,
 }) => {
-  const router = useRouter();
   return (
     <Link
       href="/login"

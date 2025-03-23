@@ -2,54 +2,79 @@ import Link from "next/link";
 import React from "react";
 import Card from "@/components/Cards";
 import Login from "@/components/login";
+import Cards from "@/components/button";
+
 const dashboard = () => {
+  // New Color Palette (Darker, Modern)
+  const primaryBg = "bg-gradient-to-br from-gray-700 to-gray-900";
+  const cardBg = "bg-gray-700";
+  const headingColor = "text-white";
+  const textColor = "text-white";
+  const cardColors = {
+    notes: { bg: "bg-blue-600", hover: "bg-blue-500" },
+    solutions: { bg: "bg-purple-600", hover: "bg-purple-500" },
+    doubts: { bg: "bg-teal-600", hover: "bg-teal-500" },
+    discussion: { bg: "bg-yellow-600", hover: "bg-yellow-500" },
+  };
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-300 to-indigo-600 p-8">
-      <div className="max-w-6xl mx-auto mt-2 bg-gradient-to-r from-violet-400 to-blue-500 rounded-2xl shadow-lg p-8 space-y-8">
-        <div className="flex flex-col">
-          <h1 className="text-4xl text-gray-800 font-extrabold mb-4 sm:mb-0">
-            Dashboard :
-          </h1>
-        </div>
-        {/* dashboard div */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* task Card */}
-          <Card
-            symbol="📝"
-            bg="bg-blue-200"
-            bgHover="bg-blue-500"
-            href="/dashboard/notes"
-            title="Notes"
-            description="Notes of subjects ranked by users!!!"
-          />
-          <Card
-            symbol="📊"
-            bg="bg-green-300"
-            bgHover="bg-green-500"
-            href="/dashboard/solutions"
-            title="Solutions"
-            description="Get solutions of assignments and tutorials!!!"
-          />
-          <Card
-            symbol="⚙️"
-            bg="bg-yellow-200"
-            bgHover="bg-yellow-500"
-            href="/dashboard/doubts"
-            title="Doubts"
-            description="Get your doubts solved by your fellow students!!!"
-          />
-          <Card
-            symbol="👥"
-            bg="bg-red-300"
-            bgHover="bg-red-500"
-            href="/dashboard/discussion"
-            title="Discussion"
-            description="Talk to your fellow students and Socialise!!!"
-          />
-        </div>
-        <p></p>
+    <main className="min-h-screen bg-black">
+      <div className="absolute top-4">
+        <Login
+          bg="bg-green-600"
+          href="/dashboard"
+          title="Login"
+          description="Login to dashboard"
+          className="hover:bg-green-500"
+          symbol="🔑"
+        />
       </div>
-    </div>
+
+      <div
+        className={`${primaryBg} h-screen p-8 flex flex-col items-center justify-center`}
+      >
+        <div className="w-full max-w-6xl flex-grow flex flex-col justify-center">
+          {/* Title and Subtitle Section */}
+          <div className="text-center mb-12  p-8 rounded-lg">
+            <h1
+              className={`text-4xl sm:text-5xl ${headingColor} font-bold mb-4`}
+            >
+              Academic Dashboard
+            </h1>
+            <p className={`text-lg ${textColor}`}>
+              Your central hub for resources, solutions, and collaboration.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-30 justify-center">
+            <Cards
+              heading="Notes"
+              definition="Explore curated notes."
+              buttonHref="/dashboard/notes"
+              color="purple"
+            ></Cards>
+            <Cards
+              heading="Solutions"
+              definition="Access detailed solutions."
+              buttonHref="/dashboard/solutions"
+              color="amber"
+            ></Cards>
+            <Cards
+              heading="Doubts"
+              definition="Get your questions answered."
+              buttonHref="/dashboard/doubts"
+              color="blue"
+            ></Cards>
+            <Cards
+              heading="Discussion"
+              definition="Connect with peers."
+              buttonHref="/dashboard/discussion"
+              color="purple"
+            ></Cards>
+          </div>
+        </div>
+      </div>
+    </main>
   );
 };
 

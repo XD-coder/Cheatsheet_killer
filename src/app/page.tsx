@@ -5,16 +5,6 @@ import Login from "@/components/login";
 const dashboard = () => {
   return (
     <main>
-      <div className="right-50 top-0 p-4 fixed">
-        <Login
-          bg="bg-blue-300"
-          href="/dashboard"
-          title="main login"
-          description="login on main page"
-          className=""
-          symbol="🔑"
-        />
-      </div>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-row items-center justify-center p-8 ">
         <div className="text-center flex flex-col items-center justify-center">
           <div>
